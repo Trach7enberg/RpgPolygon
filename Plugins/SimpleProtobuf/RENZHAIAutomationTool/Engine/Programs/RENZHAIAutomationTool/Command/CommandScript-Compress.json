@@ -1,0 +1,16 @@
+[
+	{
+		"CMD": "compress",
+		"CompressionMethod": "rz",
+		"bFolder": true,
+		"bHandleEachFileUnderPath": true,
+		"bCompress": true,
+		"Password": "",
+		"ProjectPathToTarget": [
+			{
+				"Key": "D:\\UnrealEngine-5.4\\Engine\\Plugins\\RENZHAI_PLUGIN\\SimpleProtobuf\\RENZHAIAutomationTool\\Engine\\Programs\\RENZHAIAutomationTool\\123",
+				"Value": "D:\\UnrealEngine-5.4\\Engine\\Plugins\\RENZHAI_PLUGIN\\SimpleProtobuf\\RENZHAIAutomationTool\\Engine\\Programs\\RENZHAIAutomationTool\\vp"
+			}
+		]
+	}
+]

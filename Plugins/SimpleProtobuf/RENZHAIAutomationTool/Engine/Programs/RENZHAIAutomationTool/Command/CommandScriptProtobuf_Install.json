@@ -1,0 +1,219 @@
+[
+	{
+		"CMD": "protobuf",
+		"ProtocExe": "D:/UnrealEngine-5.2/Engine/Plugins/RENZHAI_PLUGIN/SimpleProtobuf/RENZHAIAutomationTool/Engine/Binaries/Win64/protoc.exe",
+		"bPause": true,
+		"CallType": "bat",
+		"ProtobufMethod": "Install",
+		"SrcToTarget": [
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "F:\\MMOARPG\\MMOARPG\\Source\\MMOARPG"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGChatCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGComCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGMailCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGDaemon\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGdbServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGChatGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGComGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGLoginServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGMailGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGRoomDaemon\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebDaemons\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebdbServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebLoginServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\StableDiffusionCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\StableDiffusionGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "F:\\RENZHAI_APP\\RENZHAI_APP\\Source\\APP\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanLocalServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanLoginServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanLocalServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "F:\\DIGITAL_HUMAN\\DIGITAL_HUMAN\\Source\\AIGC"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "F:\\MMOARPG\\MMOARPG\\Source\\MMOARPG"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGChatCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGComCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGCenterServer\\MMOARPGMailCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGDaemon\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGdbServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGChatGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGComGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGLoginServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGGateServer\\MMOARPGMailGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\MMOARPGRoomDaemon\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebDaemons\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebdbServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\WebLoginServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\StableDiffusionCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\StableDiffusionGateServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "F:\\RENZHAI_APP\\RENZHAI_APP\\Source\\APP\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanLocalServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanLoginServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanLocalServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Source\\Programs\\RENZHAI_INDEPENDENT_PROCEDURES\\DigitalHumanCenterServer\\Private"
+			},
+			{
+				"Key": "%~EnginePath/Content/google.rz",
+				"Value": "F:\\DIGITAL_HUMAN\\DIGITAL_HUMAN\\Source\\AIGC"
+			}
+		]
+	}
+]

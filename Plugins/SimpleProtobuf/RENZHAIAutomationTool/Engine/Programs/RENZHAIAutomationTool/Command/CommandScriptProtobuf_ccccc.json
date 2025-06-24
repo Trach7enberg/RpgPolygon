@@ -1,0 +1,15 @@
+[
+	{
+		"CMD": "protobuf",
+		"ProtocExe": "D:/UnrealEngine-5.2/Engine/Plugins/RENZHAI_PLUGIN/SimpleProtobuf/RENZHAIAutomationTool/Engine/Binaries/Win64/protoc.exe",
+		"bPause": false,
+		"CallType": "bat",
+		"ProtobufMethod": "Install",
+		"SrcToTarget": [
+			{
+				"Key": "1",
+				"Value": "2"
+			}
+		]
+	}
+]

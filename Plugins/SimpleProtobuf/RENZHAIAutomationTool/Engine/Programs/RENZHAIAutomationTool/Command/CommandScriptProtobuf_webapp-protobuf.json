@@ -1,0 +1,15 @@
+[
+	{
+		"CMD": "protobuf",
+		"ProtocExe": "D:/UnrealEngine-5.2/Engine/Plugins/RENZHAI_PLUGIN/SimpleProtobuf/RENZHAIAutomationTool/Engine/Binaries/Win64/protoc.exe",
+		"bPause": true,
+		"CallType": "bat",
+		"ProtobufMethod": "Install",
+		"SrcToTarget": [
+			{
+				"Key": "D:/UnrealEngine-5.2/Engine/Plugins/RENZHAI_PLUGIN/SimpleProtobuf/RENZHAIAutomationTool/Engine/Content/google.rz",
+				"Value": "D:\\UnrealEngine-5.2\\Engine\\Plugins\\RENZHAI_PLUGIN\\WebCommon\\Source\\WebCommon\\Private"
+			}
+		]
+	}
+]

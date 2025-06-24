@@ -1,0 +1,196 @@
+[
+	{
+		"CMD": "call",
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	},
+	{
+		"CMD": "call_custom_content",
+		"Content": "",
+		"WaitTime": 10,
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	},
+	{
+		"CMD": "ue_refresh",
+		"UBTPathExePath": "",
+		"UProjectPath": "",
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	},
+	{
+		"CMD": "command",
+		"ComparisionType": "sequence",
+		"CommandList": []
+	},
+	{
+		"CMD": "deployment_copy",
+		"bDeleteMovedFiles": true,
+		"bFolder": false,
+		"Files": [
+			{
+				"Key": "A",
+				"Value": "B"
+			},
+			{
+				"Key": "B",
+				"Value": "C"
+			}
+		]
+	},
+	{
+		"CMD": "deployment_delete",
+		"bFolder": false,
+		"Files": [
+			"A",
+			"B"
+		]
+	},
+	{
+		"CMD": "visualstudio_compile",
+		"Build": "",
+		"SlnProjectPath": "",
+		"Project": "",
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	},
+	{
+		"CMD": "git",
+		"Path": "",
+		"GitCommands": [
+			"c1",
+			"c2"
+		],
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	},
+	{
+		"CMD": "packaging",
+		"Build": "",
+		"Archivedirectory": "",
+		"EngineDirPath": "",
+		"Platform": "",
+		"Target": "",
+		"UProjectPath": "",
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	},
+	{
+		"CMD": "plugin_packaging",
+		"bFolder": false,
+		"EngineDirPath": "",
+		"PluginProjectPathToTarget": [
+			{
+				"Key": "A",
+				"Value": "B"
+			},
+			{
+				"Key": "C",
+				"Value": "D"
+			}
+		],
+		"Excludes": [
+			"E",
+			"F"
+		],
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	},
+	{
+		"CMD": "condition",
+		"ComparisionType": "sequence",
+		"CommandList": [
+			"A",
+			"B"
+		],
+		"TrueCommandList": [
+			"A",
+			"B"
+		],
+		"FalseCommandList": [
+			"A",
+			"B"
+		]
+	},
+	{
+		"CMD": "oss",
+		"OSSCommands": [
+			{
+				"CommandType": "bucket_exist",
+				"Param": [
+					{
+						"Key": "-A=",
+						"Value": "N"
+					},
+					{
+						"Key": "-C=",
+						"Value": "D"
+					}
+				]
+			}
+		]
+	},
+	{
+		"CMD": "http",
+		"URL": "http://127.0.0.1",
+		"VerbType": "post",
+		"ContentBody": "",
+		"bSynchronous": true,
+		"bContentText": true,
+		"SavePath": "",
+		"OutTime": 120,
+		"CustomMetadataHeader": [
+			{
+				"Key": "C",
+				"Value": "N"
+			}
+		]
+	},
+	{
+		"CMD": "compress",
+		"CompressionMethod": "zip",
+		"bFolder": true,
+		"bHandleEachFileUnderPath": true,
+		"bCompress": true,
+		"Password": "",
+		"ProjectPathToTarget": [
+			{
+				"Key": "c:/C",
+				"Value": "D:/N"
+			}
+		]
+	},
+	{
+		"CMD": "mysql",
+		"SQLMethod": "get",
+		"SQL": "",
+		"User": "",
+		"Host": "",
+		"Port": 3306,
+		"Pawd": "",
+		"DB": "",
+		"SaveGetResultPath": ""
+	},
+	{
+		"CMD": "protobuf",
+		"ProtobufMethod": "compile",
+		"ProtocExe": "",
+		"bPause": false,
+		"SrcToTarget": [
+			{
+				"Key": "c:/C",
+				"Value": "D:/N"
+			}
+		],
+		"CallPath": "",
+		"CallType": "bat",
+		"Prams": ""
+	}
+]
