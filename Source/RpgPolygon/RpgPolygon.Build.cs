@@ -8,7 +8,17 @@ public class RpgPolygon : ModuleRules
 	public RpgPolygon(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		
+		PublicDefinitions.Add("_CRT_SECURE_NO_WARNINGS");
+		PublicDefinitions.Add("GOOGLE_PROTOBUF_NO_RTTI=1");
+		PublicDefinitions.Add("GOOGLE_PROTOBUF_CMAKE_BUILD");
 
+		PublicIncludePaths.AddRange(new string[]
+		{
+			"RpgPolygon/ThirdParty",
+			"RpgPolygon/ThirdParty/GoogleProtobuf",
+		});
+		
 		PublicDependencyModuleNames.AddRange(new String[]
 			{
 				"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG", "Slate", "SlateCore",
@@ -39,9 +49,7 @@ public class RpgPolygon : ModuleRules
 			bEnableExceptions = true;
 		}
 
-		PublicDefinitions.Add("_CRT_SECURE_NO_WARNINGS");
-		PublicDefinitions.Add("GOOGLE_PROTOBUF_NO_RTTI=1");
-		PublicDefinitions.Add("GOOGLE_PROTOBUF_CMAKE_BUILD");
+		
 
 		// protobuf end
 		
