@@ -213,17 +213,18 @@ APolyController* APolyCharacter::GetPolyController()
 void APolyCharacter::InputMove(const FInputActionValue& InputActionValue)
 {
 	if (!GetController()) { return; }
-
+	
 	const auto MovementVector = InputActionValue.Get<FVector2D>();
-
 
 	AddMovementInput(GetControlRotation().Euler().ForwardVector, MovementVector.Y);
 	AddMovementInput(GetControlRotation().Euler().RightVector, MovementVector.X);
+	// 手动移动中
 	PlayerInteractComp->SendAbilityStatusTag(PolyGameplayTags::RpgPoly_Player_Status_Action_Move_ManualMoving);
 }
 
 void APolyCharacter::InputMoveCompleted(const FInputActionInstance& InputActionInstance)
 {
+	// 取消手动移动
 	PlayerInteractComp->RemoveAbilityStatusTag(PolyGameplayTags::RpgPoly_Player_Status_Action_Move_ManualMoving);
 }
 

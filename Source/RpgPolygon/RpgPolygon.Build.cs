@@ -1,5 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
+using System;
 using UnrealBuildTool;
 
 public class RpgPolygon : ModuleRules
@@ -8,16 +9,42 @@ public class RpgPolygon : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[]
+		PublicDependencyModuleNames.AddRange(new String[]
+			{
+				"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG", "Slate", "SlateCore",
+				"GameplayAbilities", "GameplayTags",
+				"GameplayTasks", "NavigationSystem", "Niagara", "MotionWarping", "AIModule", "ModelViewViewModel",
+				"AnimGraphRuntime", "CustomAssetEditorRuntime"
+			}
+		);
+
+		if (Target.bBuildEditor)
 		{
-			"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG", "Slate", "SlateCore",
-			"GameplayAbilities", "GameplayTags",
-			"GameplayTasks", "NavigationSystem", "Niagara", "MotionWarping", "AIModule", "ModelViewViewModel",
-			"AnimGraphRuntime"
+			PublicDependencyModuleNames.AddRange(new String[]
+			{
+				"CustomAssetEditor"
+			});
+		}
+
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
 		});
+		
+		// protobuf begin
+		ShadowVariableWarningLevel = WarningLevel.Off;
+ 
+		bEnableUndefinedIdentifierWarnings = false;
+		if (Target.Platform == UnrealTargetPlatform.Win64)
+		{
+			bEnableExceptions = true;
+		}
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PublicDefinitions.Add("_CRT_SECURE_NO_WARNINGS");
+		PublicDefinitions.Add("GOOGLE_PROTOBUF_NO_RTTI=1");
+		PublicDefinitions.Add("GOOGLE_PROTOBUF_CMAKE_BUILD");
 
+		// protobuf end
+		
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 

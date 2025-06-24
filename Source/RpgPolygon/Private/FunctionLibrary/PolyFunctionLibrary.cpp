@@ -145,7 +145,7 @@ bool UPolyFunctionLibrary::DirectionOpposite(const AActor* Attacker, const AActo
 {
 	if (!Attacker || !Defender) { return false; }
 
-	// 向量不垂直(0)、方向不相同(1),即面对面的情况时(向量方向相反)才是有效格挡
+	// 点积:向量垂直B在A的左边或则右边(0)、方向相同(1),即面对面的情况时(向量方向相反)才是有效格挡(-1),值小于0时才是Opposite
 	return FVector::DotProduct(Attacker->GetActorForwardVector(), Defender->GetActorForwardVector()) < 0.f - Tolerance;
 }
 

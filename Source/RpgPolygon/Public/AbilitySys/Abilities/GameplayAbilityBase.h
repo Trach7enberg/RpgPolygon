@@ -78,11 +78,7 @@ public:
 	/// @return 
 	UFUNCTION(BlueprintCallable, Category="PolyAbility")
 	virtual UAnimMontage* GetRandomMontage(const TArray<UAnimMontage*>& InMontages) const;
-
-	/// 获取当前Owner的Combat组件并返回当前装备武器的基础伤害
-	/// @return 
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category="PolyAbility|Damage")
-	float GetWeaponBaseDamage();
+	
 
 	/// 在客户端生成VFX
 	/// @param InNiagaraSystem 

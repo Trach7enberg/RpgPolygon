@@ -128,13 +128,6 @@ UAnimMontage* UGameplayAbilityBase::GetRandomMontage(const TArray<UAnimMontage*>
 	return InMontages.IsEmpty() ? nullptr : InMontages[FMath::RandRange(0, InMontages.Num() - 1)];
 }
 
-float UGameplayAbilityBase::GetWeaponBaseDamage()
-{
-	if (!GetPawnWeaponComp()) { return 0.f; }
-
-	return GetPawnWeaponComp()->GetWeaponDataBaseDamage(GetAbilityLevel());
-}
-
 void UGameplayAbilityBase::Client_SpawnSystemAtLoc(TSoftObjectPtr<UNiagaraSystem> InNiagaraSystem, const FVector InLoc)
 {
 	if (!IsLocallyControlled()) { return; }
